@@ -1,0 +1,31 @@
+﻿  MyForm.cpp
+E:\Slavery\ONLY_FANS\2curs\CourseworkOOP\gadget_1\MyForm.h(875,21): warning C4101: 'exception': unreferenced local variable
+E:\Slavery\ONLY_FANS\2curs\CourseworkOOP\gadget_1\MyForm.h(1002,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Slavery\ONLY_FANS\2curs\CourseworkOOP\gadget_1\MyForm.h(1025,33): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Slavery\ONLY_FANS\2curs\CourseworkOOP\gadget_1\MyForm.h(1209,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Slavery\ONLY_FANS\2curs\CourseworkOOP\gadget_1\MyForm.h(1233,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xstring(2765,53): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xstring(2621,17): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+E:\Slavery\ONLY_FANS\2curs\CourseworkOOP\gadget_1\MyForm.h(802,28): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+E:\Slavery\ONLY_FANS\2curs\CourseworkOOP\gadget_1\MyForm.h(802,28): message : see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'Project11::MyForm::ConvertToString'
+E:\Slavery\ONLY_FANS\2curs\CourseworkOOP\gadget_1\XandY.h(38): warning C4715: 'Variables::GetVariable': not all control paths return a value
+E:\Slavery\ONLY_FANS\2curs\CourseworkOOP\gadget_1\gadget.h(201): warning C4715: 'Project11::Gadget::GetProperty': not all control paths return a value
+E:\Slavery\ONLY_FANS\2curs\CourseworkOOP\gadget_1\gadget.h(138): warning C4715: 'Project11::Gadget::GetType': not all control paths return a value
+LINK : fatal error LNK1104: cannot open file 'E:\Slavery\ONLY_FANS\2curs\CourseworkOOP\gadget_1\x64\Debug\Project11.exe'

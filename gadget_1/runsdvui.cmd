@@ -1,0 +1,2 @@
+cd /d "E:\Slavery\ONLY_FANS\2curs\CourseworkOOP\gadget_1" &msbuild "Project11.vcxproj" /t:sdvViewer /p:configuration="Debug" /p:platform="x64" /p:SolutionDir="E:\Slavery\ONLY_FANS\2curs\CourseworkOOP\gadget_1" 
+exit %errorlevel% 
